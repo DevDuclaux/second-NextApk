@@ -1,0 +1,259 @@
+.teams{
+    .teams_msg{
+        text-align: center;
+        margin-top: 70px;
+        .team_title{
+            color: #74C69D;
+            text-transform: uppercase;
+            margin-bottom: 16px;
+            font-size: 26px;
+        }
+        .team_notes{
+            margin-bottom: 16px;
+            font-size: 40px;
+        }
+
+        .team_texte{
+            margin-bottom: 30px;
+            font-size: 20px;
+        }
+    }
+}
+
+@media only screen and (width<665px){
+    .teams{
+        .teams_msg{
+            .team_title{
+                margin-bottom: 12px;
+                font-size: 20px;
+            }
+            .team_notes{
+                margin-bottom: 12px;
+                font-size: 30px;
+            }
+    
+            .team_texte{
+                margin-bottom: 70px;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+.imgs{
+    .newDiv{
+        margin: 0 230px;
+        .grp1,
+        .grp2,
+        .grp3,
+        .grp4{
+            display: flex;
+            justify-content: space-between;
+            .msg2{
+                border: solid 1px #000;
+                margin-top: 30px;
+            }
+        }
+    }
+}
+
+@media only screen and (width<1659px){
+    .imgs{
+        .newDiv{
+            margin: 0 115px;
+            .grp1,
+            .grp2,
+            .grp3,
+            .grp4{
+                .msg2{
+                    width: 400px;
+                    height: 250px;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media only screen and (width<1076px){
+    .imgs{
+        .newDiv{
+            margin: 0 50px;
+            .grp1,
+            .grp2,
+            .grp3,
+            .grp4{
+                .msg2{
+                    width: 350px;
+                    height: 220px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (width<824px){
+    .imgs{
+        .newDiv{
+            .grp1,
+            .grp2,
+            .grp3,
+            .grp4{
+                .msg2{
+                    width: 300px;
+                    height: 220px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (width<716px){
+    .imgs{
+        .newDiv{
+            margin-left: 10vh;
+            margin-top: -30px;
+            .grp1,
+            .grp2,
+            .grp3,
+            .grp4{
+                flex-direction: column;
+                .msg2{
+                    width: 500px;
+                    height: 300px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (width<667px){
+    .imgs{
+        .newDiv{
+            margin-left: 10vh;
+            margin-top: -50px;
+            .grp1,
+            .grp2,
+            .grp3,
+            .grp4{
+                .msg2{
+                    width: 450px;
+                    height: 280px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (width<600px){
+    .imgs{
+        .newDiv{
+            margin-left: 10vh;
+            margin-top: -50px;
+            .grp1,
+            .grp2,
+            .grp3,
+            .grp4{
+                .msg2{
+                    width: 400px;
+                    height: 250px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (width<505px){
+
+    .teams{
+        .teams_msg{
+            margin-top: 15px;
+            .team_texte{
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .imgs{
+        .newDiv{
+            margin-left: 12vh;
+            margin-top: -30px;
+            .grp1,
+            .grp2,
+            .grp3,
+            .grp4{
+                .msg2{
+                    width: 300px;
+                    height: 180px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (width<497px){
+    .imgs{
+        .newDiv{
+            margin-left: 10vh;
+            margin-top: -30px;
+        }
+    }
+}
+
+@media only screen and (width<429px){
+    .imgs{
+        .newDiv{
+            margin-left: 5vh;
+            margin-top: -30px;
+        }
+    }
+}
+
+@media only screen and (width<378px){
+     .imgs{
+        .newDiv{
+            margin-left: 4vh;
+            margin-top: -30px;
+            .grp1,
+            .grp2,
+            .grp3,
+            .grp4{
+                .msg2{
+                    width: 300px;
+                    height: 200px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (width<358px){
+    .imgs{
+       .newDiv{
+           margin-left: 2vh;
+           margin-top: -30px;
+           .grp1,
+           .grp2,
+           .grp3,
+           .grp4{
+               .msg2{
+                   width: 250px;
+                   height: 190px;
+               }
+           }
+       }
+   }
+}
+
+
+
+.btn{
+    text-align: center;
+    .btn_profile{
+        background-color: #000;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 8px;
+        margin: 50px 0;
+    }
+}

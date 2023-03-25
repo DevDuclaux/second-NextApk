@@ -1,0 +1,48 @@
+.footer{
+    background-color: #74C69D;
+    height: 125px;
+
+    .contain{
+        justify-content: space-between;
+        padding-top: 53px;
+        align-items: center;
+
+        .img{
+            margin-left: 20px;
+        }
+
+        .proprio{
+            font-size: 20px;
+            color: white;
+        }
+    }
+}
+
+@media only screen and (width<770px){
+    .footer{
+    
+        .contain{
+    
+            .img{
+                margin-left: 15px;
+            }
+    
+            .proprio{
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+@media only screen and (width<480px){
+    .footer{
+    
+        .contain{
+            flex-direction: column;
+
+            .proprio{
+                margin-top: 17px;
+            }
+        }
+    }
+}

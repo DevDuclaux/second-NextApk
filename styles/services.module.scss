@@ -1,0 +1,274 @@
+.cont{
+    text-align: center;
+
+    .header{
+        margin-top: 35px;
+        margin-bottom: 78px;
+
+        .title{
+            color: #74C69D;
+            font-size: 20px;
+            margin-bottom: 16px;
+            text-transform: uppercase;
+        }
+
+        .description{
+            font: bold 40px arial;
+            margin-bottom: 16px;
+        }
+
+        .text{
+            font-size: 20px;
+        }
+    }
+
+    .corps{
+        padding-bottom: 130px;
+        display: flex;
+        justify-content: space-around;
+        .main,
+        .main2{
+            background-color: #FFFFFF;
+            width: 339px;
+            height: 542px;
+            padding: 46px 30px;
+            box-shadow: 0 0 10px black;
+            border-radius: 10px;
+
+            .first{
+                font-size: 15px;
+                font-weight: 400;
+                margin-bottom: -10px;
+            }
+
+            .price{
+                color: gray;
+                font-weight: 400;
+                font-size: 15px;
+                margin-bottom: 10px;
+                span{
+                    font-weight: 700;
+                    color: black;
+                    font-size: 40px;
+                }
+            }
+
+            .text{
+                color: gray;
+                font-weight: 400;
+                font-size: 15px;
+                margin-bottom: 50px;
+            }
+
+            .msg{
+                display: flex;
+                align-items: center;
+                padding-left: 3px;
+                margin-top: -25px;
+
+                .mots{
+                    margin-left: 5px;
+                    margin-top: 15px;
+                    font-weight: 400;
+                    font-size: 15px;
+                }
+
+            }
+
+            .btn_profile{
+                background-color: #000;
+                color: #fff;
+                padding: 10px 20px;
+                border-radius: 8px;
+                margin: 30px 0;
+            }
+        }
+    }
+}
+
+@media  only screen and (width <845px){
+    .cont{
+    
+        .header{
+            margin-top: 20px;
+            margin-bottom: 50px;
+    
+            .title{
+                font-size: 16px;
+                margin-bottom: 10px;
+            }
+    
+            .description{
+                font: bold 30px arial;
+                margin-bottom: 10px;
+            }
+    
+            .text{
+                font-size: 15px;
+            }
+        }
+    }
+}
+@media  only screen and (width <1209px){
+    .cont{
+        .corps{
+            justify-content: space-between;
+            margin-bottom: -70px;
+            .main,
+            .main2{
+                width: 270px;
+                height: 500px;
+                padding: 46px 10px;
+                box-shadow: 0 0 10px black;
+                border-radius: 10px;
+    
+                .first{
+                    font-size: 13px;
+                    font-weight: 370;
+                    margin-bottom: -10px;
+                }
+    
+                .price{
+                    color: gray;
+                    font-weight: 370;
+                    font-size: 13px;
+                    margin-bottom: 10px;
+                    span{
+                        font-weight: 6700;
+                        color: black;
+                        font-size: 30px;
+                    }
+                }
+    
+                .text{
+                    color: gray;
+                    font-weight: 370;
+                    font-size: 13px;
+                    margin-bottom: 50px;
+                }
+    
+                .msg{
+                    display: flex;
+                    align-items: center;
+                    padding-left: 10px;
+                    margin-top: -25px;
+    
+                    .mots{
+                        margin-left: 2px;
+                        margin-top: 15px;
+                        font-weight: 3700;
+                        font-size: 13px;
+                    }
+    
+                }
+    
+                .btn_profile{
+                    background-color: #000;
+                    color: #fff;
+                    padding: 10px 20px;
+                    border-radius: 8px;
+                    margin: 30px 0;
+                }
+            }
+        }
+    }
+}
+
+
+@media  only screen and (width <973px){
+    .cont{
+        .corps{
+            padding-bottom: 135px;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+
+            .main,
+            .main2{
+                background-color: #FFFFFF;
+                width: 400px;
+                height: 542px;
+                padding: 46px 30px;
+                box-shadow: 0 0 10px black;
+                border-radius: 10px;
+                margin-top: 70px;
+    
+                .first{
+                    font-size: 15px;
+                    font-weight: 400;
+                    margin-bottom: -10px;
+                }
+    
+                .price{
+                    color: gray;
+                    font-weight: 400;
+                    font-size: 15px;
+                    margin-bottom: 10px;
+                    span{
+                        font-weight: 700;
+                        color: black;
+                        font-size: 40px;
+                    }
+                }
+    
+                .text{
+                    color: gray;
+                    font-weight: 400;
+                    font-size: 15px;
+                    margin-bottom: 50px;
+                }
+    
+                .msg{
+                    display: flex;
+                    align-items: center;
+                    padding-left: 3px;
+                    margin-top: -25px;
+    
+                    .mots{
+                        margin-left: 5px;
+                        margin-top: 15px;
+                        font-weight: 400;
+                        font-size: 15px;
+                    }
+    
+                }
+    
+                .btn_profile{
+                    background-color: #000;
+                    color: #fff;
+                    padding: 10px 20px;
+                    border-radius: 8px;
+                    margin: 30px 0;
+                }
+            }
+
+            .main2{
+                margin-top: -20px;
+            }
+        }
+    }
+}
+
+@media  only screen and (width <541px){
+    .cont{    
+        .corps{
+            .main,
+            .main2{
+                width: 300px;
+                height: 542px;
+            }
+        }
+    }
+}
+
+@media  only screen and (width <335px){
+    .cont{    
+        .corps{
+            .main,
+            .main2{
+                width: 250px;
+                height: 542px;
+            }
+        }
+    }
+}

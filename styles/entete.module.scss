@@ -1,0 +1,180 @@
+.head{
+    padding: 35px 135px 0;
+    justify-content: space-between;
+    background-color: hsl(150, 42%, 62%);
+    align-items: center;
+
+    .insigne{
+        .name{
+            margin-left: 18px;
+            color: #fff;
+            font : bold 40px Work Sans;
+        }
+    }
+
+    .navigation{
+        .monte,
+        .nav{
+            li{
+                margin-left: 70px;
+                list-style: none;
+                font : bold 20px Work Sans;
+                .links{
+                    text-decoration: none;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (width<1076px) {
+    .head{
+        padding: 30px 60px 0;
+    }
+
+    .navigation{
+        .nav{
+            li{
+                margin-left: 20px;
+                list-style: none;
+                font : bold 20px Work Sans;
+            }
+        }
+    }
+}
+
+@media only screen and (width<400px){
+
+    .head{
+        .insigne{
+            .logo{
+                width: 42px;
+                height: 31.5px;
+                margin-top: 10px;
+            }
+            .name{
+                margin-left: 10px;
+                color: #fff;
+            }
+        }
+
+        .head{
+            .hamburger{
+                width: fit-content;
+                height:fit-content;
+                
+                .menu1,
+                .menu2,
+                .menu3,
+                .croix1,
+                .croix2,
+                .go{
+                    padding-bottom: 0;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (width<850px) {
+
+    .head{
+        padding: 20px 30px 0;
+    }
+
+    .navigation{
+        .nav{
+            padding: 0;
+            margin: 0;
+            flex-direction: column;
+            position: absolute;
+            top: 70px;
+            right: 0;
+            background-color: hsl(150, 42%, 62%);
+            align-items: center;
+            justify-content: center;
+            padding-right: 70px;
+            height: 350px;
+            transition: all .5s ease-in-out;
+            box-shadow:  -1px 2px 5px #a08f8f ;
+            
+            li{
+                padding: 0;
+                .links{
+                    padding-left: -130px;
+                }
+                margin-top: 50px;
+
+            }
+        }
+
+        .monte{
+            padding: 0;
+            margin: 0;
+            position: absolute;
+            right: 0;
+            top: -300px;
+            transition: all .5s ease-in-out;
+            flex-direction: column;
+            padding-right: 70px;
+            height: 350px;
+            li{
+                margin-top: 50px;
+                padding: 0;
+                margin-left: 70px;
+                list-style: none;
+                font : bold 20px Work Sans;
+                .links{
+                    padding-left: -130px;
+                    text-decoration: none;
+                    color: #fff;
+                    list-style: none;
+                }
+            }
+        }
+
+        .hamburger{
+            margin-bottom:15px;
+            height: fit-content;
+            .menu1,
+            .menu2,
+            .menu3{
+                width: 25px;
+                height: 3px;
+                background-color: #fff;
+                transition: all .5s ease-in-out;
+            }
+
+            .menu2,
+            .menu3{
+                margin-top: 5px;
+            }
+
+            .go{
+                width: 25px;
+                height: 3px;
+                background-color: #fff;
+                transform: translate(-50px);
+                opacity: 0;
+                transition: all .5s ease-in-out;
+            }
+
+            .croix1{
+                width: 25px;
+                height: 3px;
+                background-color: #fff;
+                transition: all .5s ease-in-out;
+                transform: rotate(55deg) translate(5px, 3px);
+            }
+
+            .croix2{
+                width: 25px;
+                height: 3px;
+                background-color: #fff;
+                transition: all .5s ease-in-out;
+                transform: rotate(-55deg);
+            }
+        }
+    }
+}
